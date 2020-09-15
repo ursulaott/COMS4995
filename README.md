@@ -5,3 +5,4 @@ project proposal: currently collecting ideas!
 - or photography
 - maybe some sort of photo editing tool
 - something for learning chinese bc i'm really struggling to find a good software for it
+- something for desmume/nintendo ds emulator
