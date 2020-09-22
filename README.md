@@ -8,5 +8,5 @@ description:
 
 motivation: 
 - as an amatuer photographer i have tried almost every photo editing app/software and the free ones are not very customizable and the good ones are very expensive
-- the library of effects/filters should possibly be able to integrate into other software maybe? 
+- existing image processing libraries i have tried are too complicated and not really geared to artistic effects or just straight up ugly 
 
