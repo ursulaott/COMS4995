@@ -1,9 +1,10 @@
 # COMS4995
 
-project proposal: currently collecting ideas!
-- something to do with organizing and tagging art maybe
-- or photography
-- maybe some sort of photo editing tool
-- something for learning chinese bc i'm really struggling to find a good software for it
-- something for desmume/nintendo ds emulator
-- MEME MAKING ENGINE 
+project proposal
+
+description: 
+- a library of photo editing/filter effects in python that are free, easy to use, and highly fine-tune-able (kind of like lightroom presets)
+
+motivation: 
+- as an amatuer photographer i have tried almost every photo editing app/software and the free ones are not very customizable and the good ones are very expensive
+- the library of effects/filters should possibly be able to integrate into other software maybe? 
