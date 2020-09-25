@@ -1,1 +1,0 @@
-can change projects at any time, but you have to set up all of the old things/tools on the new project as well
