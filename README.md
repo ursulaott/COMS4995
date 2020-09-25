@@ -1,8 +1,15 @@
 # COMS4995
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE) 
 
-project proposal
+pixel-perfect photo filters in python
+
+## guide 
+
+installation guide goes here
+
+
+## project proposal
 
 description: 
 - a library of photo editing/filter effects in python that are free, easy to use, and highly fine-tune-able (kind of like lightroom presets)
