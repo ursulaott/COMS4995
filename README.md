@@ -1,5 +1,7 @@
 # COMS4995
 
+(https://img.shields.io/badge/license-MIT-green)
+
 project proposal
 
 description: 
