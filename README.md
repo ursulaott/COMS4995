@@ -1,6 +1,6 @@
 # COMS4995
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICE)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE)
 
 project proposal
 
