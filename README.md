@@ -6,7 +6,7 @@ pixel-perfect photo filters in python
 
 ## guide 
 
-installation guide goes here
+`pip install pillow`
 
 
 ## project proposal
