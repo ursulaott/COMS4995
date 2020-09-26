@@ -1,3 +1,3 @@
-#Contributing
+# Contributing
 
-yeet
+a guide for how to contribute to the project!
