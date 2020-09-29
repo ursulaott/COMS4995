@@ -1,8 +1,9 @@
-# COMS4995
+# COMS4995 
+# drkrm
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE) 
 
-pixel-perfect photo filters in python
+drkrm | pixel-perfect photo filters in python
 
 ## guide 
 
