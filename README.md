@@ -1,4 +1,3 @@
-# COMS4995 
 # drkrm
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE) 
