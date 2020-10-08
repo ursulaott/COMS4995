@@ -1,6 +1,6 @@
 # test importing the library
 
-import drkrm
+import drkrm as dr
 
-path = get_path()
-read_img(path)
+imgpath = dr.get_path()
+dr.read_img(imgpath)

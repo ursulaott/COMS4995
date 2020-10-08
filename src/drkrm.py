@@ -4,9 +4,6 @@ def get_path():
     path = "../examples/kakashi.jpg"
     return path
 
-def read_img(path):
-    im = Image.open(path)
+def read_img(imgpath):
+    im = Image.open(imgpath)
     im.show()
-
-path = get_path()
-read_img(path)
