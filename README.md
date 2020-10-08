@@ -1,6 +1,6 @@
 # drkrm
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE)  ![Travis (.org)](https://img.shields.io/travis/ursulaott/drkrm)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE) ![CI](https://github.com/ursulaott/drkrm/workflows/CI/badge.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/ursulaott/drkrm)
 
 drkrm | pixel-perfect photo filters in python [link to repo](https://github.com/ursulaott/COMS4995)
 
