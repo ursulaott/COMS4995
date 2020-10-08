@@ -1,12 +1,5 @@
 language: python
 
-install:
-    - npm install -g yarn
-    - yarn
-
-script:
-
-
 branches:
     only:
     - master
