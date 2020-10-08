@@ -1,0 +1,13 @@
+language: python
+
+install:
+    - pip install -g yarn
+    - yarn
+
+script:
+    - yarn lint
+    - yarn test
+
+branches:
+    only:
+    - master
