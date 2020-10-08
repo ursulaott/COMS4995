@@ -1,7 +1,7 @@
 language: python
 
 install:
-    - brew install yarn
+    - npm install -g yarn
     - yarn
 
 script:
