@@ -1,6 +1,9 @@
-# test what happens if path is empty (should fail)
+# test reading in an image
+# should return no errors
+import drkrm
+import pytest
 
-import drkrm as dr
+p = drkrm.get_path()
 
-imgpath =  ""
-dr.read_img(imgpath)
+def test_path():
+    assert (p != None)

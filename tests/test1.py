@@ -1,6 +1,8 @@
-# test importing the library
+# test pytest?
 
-import drkrm as dr
+import drkrm
+import pytest
 
-imgpath = dr.get_path()
-dr.read_img(imgpath)
+def test_zero_division():
+    with pytest.raises(ZeroDivisionError):
+        1 / 0

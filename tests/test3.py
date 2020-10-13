@@ -1,6 +1,11 @@
-# test what happens if path is empty (should fail)
+# test reading opening an image
+# should return by opening an image of kakashi sensei
+import drkrm
+import pytest
 
-import drkrm as dr
+p = drkrm.get_path()
 
-imgpath =  ""
-dr.read_img(imgpath)
+def test_open_img():
+    assert (p != None)
+
+drkrm.read_img(p)
