@@ -1,5 +1,5 @@
-# test reading opening an image
-# should return by opening an image of kakashi sensei
+# test getting a supplied image path
+
 import drkrm
 import pytest
 
@@ -8,4 +8,4 @@ p = "./kakashi.jpg"
 def test_open_img():
     assert (p != None)
 
-drkrm.read_img(p)
+# figure out how to simulate user input in test?
