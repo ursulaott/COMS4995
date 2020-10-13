@@ -40,4 +40,9 @@ jobs:
           echo test, and deploy your project.
 
       - name: Test with pytest
-        run: python -m pytest
+        run: |
+            python -m pytest tests/test1.py
+            python -m pytest tests/test2.py
+            python -m pytest tests/test3.py
+            python -m pytest tests/test4.py
+            python -m pytest tests/test5.py
