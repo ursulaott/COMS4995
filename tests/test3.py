@@ -3,7 +3,7 @@
 import drkrm
 import pytest
 
-p = drkrm.get_path()
+p = "kakashi.jpg"
 
 def test_open_img():
     assert (p != None)
