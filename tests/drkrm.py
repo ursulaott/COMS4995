@@ -1,7 +1,7 @@
 from PIL import Image
 
 def get_path():
-    path = "./kakashi.jpg"
+    path = "../examples/kakashi.jpg"
     return path
 
 def input_path():
