@@ -31,3 +31,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: Run pytest tests
+        run: |
+          pytest ../tests/test1.py
+          pytest ../tests/test2.py
+          pytest ../tests/test3.py
+          pytest ../tests/test4.py
+          pytest ../tests/test5.py
