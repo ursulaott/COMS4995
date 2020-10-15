@@ -48,5 +48,5 @@ jobs:
 
       - name: Get coverage
         run: |
-            coverage run -m pytest
+            python -m coverage 
             codecov
