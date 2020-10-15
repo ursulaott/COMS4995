@@ -47,7 +47,7 @@ jobs:
             python -m coverage run tests/test4.py
             python -m coverage run tests/test5.py
 
-            coverage xml
+            python -m coverage xml
 
     # code coverage
       - name: Upload coverage to Codecov
