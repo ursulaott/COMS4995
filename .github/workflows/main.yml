@@ -31,6 +31,7 @@ jobs:
             python -m pytest --version
             pip install codecov
 
+
     # testing
       - name: Test with pytest
         run: |
@@ -48,5 +49,5 @@ jobs:
 
       - name: Get coverage
         run: |
-            python -m coverage 
-            codecov
+            python -m coverage
+            python -m codecov
