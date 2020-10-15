@@ -33,13 +33,21 @@ jobs:
 
 
     # testing
-      - name: Test with pytest
+      - name: Test with pytest and generate coverage xml
         run: |
             python -m pytest tests/test1.py
             python -m pytest tests/test2.py
             python -m pytest tests/test3.py
             python -m pytest tests/test4.py
             python -m pytest tests/test5.py
+
+            python -m coverage tests/test1.py
+            python -m coverage tests/test2.py
+            python -m coverage tests/test3.py
+            python -m coverage tests/test4.py
+            python -m coverage tests/test5.py
+
+            coverage xml
 
     # code coverage
       - name: Upload coverage to Codecov
