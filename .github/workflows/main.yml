@@ -32,7 +32,7 @@ jobs:
             pip install codecov
 
 
-    # testing
+    # testing with pytest, generate coverage report
       - name: Test with pytest and generate coverage xml
         run: |
             python -m pytest tests/test1.py
@@ -49,6 +49,6 @@ jobs:
 
             python -m coverage xml
 
-    # code coverage
+    # Upload code coverage to codecov
       - name: Upload coverage to Codecov
         run: bash <(curl -s https://codecov.io/bash)
