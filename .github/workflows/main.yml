@@ -55,4 +55,4 @@ jobs:
 
     # Linting step
       - name: Lint source code with flake8
-        run: flake8 src/
+        run: python -m flake8 src/
