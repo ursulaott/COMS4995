@@ -14,21 +14,20 @@ def get_input_path():
 def read_img(imgpath):
     im = Image.open(imgpath)
     return im
-    #im.show()
 
-# returns square central crop of image
-def square(im):
+
+def square(im):  # returns square central crop of image
     w, h = im.size
-    print(w,h)
+    print(w, h)
     if w == h:
         return im
-    elif w > h: # horiz im
-        l = w/4
-        area = (l, 0, h + l, h)
+    elif w > h:  # horiz im
+        buffer = w/4
+        area = (buffer, 0, h + buffer, h)
         square = im.crop(area)
-    else: # horiz im
-        l = h/4
-        area = (0, l, w, w+l)
+    else:  # horiz im
+        buffer = h/4
+        area = (0, buffer, w, w + buffer)
         square = im.crop(area)
     return square
 
