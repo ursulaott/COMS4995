@@ -40,12 +40,16 @@ jobs:
             python -m pytest tests/test3.py
             python -m pytest tests/test4.py
             python -m pytest tests/test5.py
+            python -m pytest tests/test6.py
+            python -m pytest tests/test7.py
 
             python -m coverage run tests/test1.py
             python -m coverage run tests/test2.py
             python -m coverage run tests/test3.py
             python -m coverage run tests/test4.py
             python -m coverage run tests/test5.py
+            python -m coverage run tests/test6.py
+            python -m coverage run tests/test7.py
 
             python -m coverage xml
 
