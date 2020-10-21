@@ -35,21 +35,21 @@ jobs:
     # testing with pytest, generate coverage report
       - name: Test with pytest and generate coverage xml
         run: |
-            python -m pytest tests/test1.py
-            python -m pytest tests/test2.py
-            python -m pytest tests/test3.py
-            python -m pytest tests/test4.py
-            python -m pytest tests/test5.py
-            python -m pytest tests/test6.py
-            python -m pytest tests/test7.py
+            python -m pytest test/test_1.py
+            python -m pytest test/test_2.py
+            python -m pytest test/test_3.py
+            python -m pytest test/test_4.py
+            python -m pytest test/test_5.py
+            python -m pytest test/test_6.py
+            python -m pytest test/test_7.py
 
-            python -m coverage run tests/test1.py
-            python -m coverage run tests/test2.py
-            python -m coverage run tests/test3.py
-            python -m coverage run tests/test4.py
-            python -m coverage run tests/test5.py
-            python -m coverage run tests/test6.py
-            python -m coverage run tests/test7.py
+            python -m coverage run test/test_1.py
+            python -m coverage run test/test_2.py
+            python -m coverage run test/test_3.py
+            python -m coverage run test/test_4.py
+            python -m coverage run test/test_5.py
+            python -m coverage run test/test_6.py
+            python -m coverage run test/test_7.py
 
             python -m coverage xml
 
