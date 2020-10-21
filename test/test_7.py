@@ -1,6 +1,6 @@
 # test centrally square cropping a horizontal image
 
-from src import drkrm
+from drkrm.src import drkrm
 import pytest
 
 def test_square_horizontal():
