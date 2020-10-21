@@ -1,6 +1,6 @@
 # test getting a supplied image path
 
-import drkrm
+from src import drkrm
 import pytest
 
 p = "./kakashi.jpg"

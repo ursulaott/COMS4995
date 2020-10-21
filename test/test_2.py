@@ -1,6 +1,6 @@
 # test reading in an image
 # should return no errors
-import drkrm
+from src import drkrm
 import pytest
 
 p = drkrm.get_path()

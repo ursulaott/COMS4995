@@ -1,6 +1,6 @@
 # test pytest?
 
-import drkrm
+from src import drkrm
 import pytest
 
 def test_zero_division():

@@ -2,9 +2,8 @@
 # expect to get
 # TypeError: read_img() missing 1 required positional argument: 'imgpath'
 
-import drkrm
+from src import drkrm
 import pytest
-
 
 
 def test_path_empty():

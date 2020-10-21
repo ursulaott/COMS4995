@@ -3,9 +3,9 @@
 # No such file or directory: '../examples/nonexistient.jpg'
 # filenotfounderror is not defined in python2?
 
-import drkrm
+from src import drkrm
 import pytest
 
 def test_path_empty():
     with pytest.raises(IOError):
-        drkrm.read_img("../examples/nonexistient.jpg")
+        drkrm.read_img("examples/nonexistient.jpg")
