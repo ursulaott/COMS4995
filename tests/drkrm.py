@@ -34,13 +34,3 @@ def square(im):
 
 
 # to appease flake8
-
-if __name__ == "__main__":
-    p = get_path()
-    i = read_img(p)
-    sq = square(i)
-    sq.show()
-
-    i2 = read_img("../examples/bnha.jpg")
-    sq2 = square(i2)
-    sq2.show()
