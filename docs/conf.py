@@ -1,9 +1,4 @@
 import sphinx_rtd_theme
-
-html_theme = "sphinx_rtd_theme"
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
-
 master_doc="index"
 
 # Configuration file for the Sphinx documentation builder.
@@ -35,7 +30,7 @@ author = 'Ursula Ott'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark', 'autoapi.extension']
+extensions = ['recommonmark', 'autoapi']
 source_suffix = ['.rst', '.md']
 
 # Add any paths that contain templates here, relative to this directory.
@@ -51,7 +46,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+
+
+html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
