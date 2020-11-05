@@ -31,6 +31,8 @@ author = 'Ursula Ott'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['recommonmark', 'autoapi.extension']
+autoapi_dirs = ['../src']
+
 source_suffix = ['.rst', '.md']
 
 # Add any paths that contain templates here, relative to this directory.
@@ -67,4 +69,3 @@ def setup(app):
     app.add_transform(AutoStructify)
 
 # for auto api documentation
-autoapi_dirs = ['../src']
