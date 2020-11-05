@@ -4,7 +4,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 
-master_doc=["index"]
+master_doc="index"
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -35,7 +35,7 @@ author = 'Ursula Ott'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
+extensions = ['recommonmark', 'autoapi.extension']
 source_suffix = ['.rst', '.md']
 
 # Add any paths that contain templates here, relative to this directory.
@@ -67,3 +67,6 @@ def setup(app):
         'auto_toc_tree_section': 'Contents',
     }, True)
     app.add_transform(AutoStructify)
+
+# for auto api documentation
+autoapi_dirs = ['../src']
