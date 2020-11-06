@@ -7,6 +7,8 @@
 - are
 - fun
 
+[api autodocumentation](docs/_build/autoapi/drkrm/index.html)
+
 ``` eval_rst
     .. note::
         We can still mix rst, which we'll use for autodocumentation
