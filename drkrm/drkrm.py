@@ -2,7 +2,6 @@ from PIL import Image
 from PIL import ImageFilter
 
 
-
 def get_path():
     path = "../examples/kakashi.jpg"
     return path
@@ -24,11 +23,11 @@ def square(im):  # returns square central crop of image
     if w == h:
         return im
     elif w > h:  # horiz im
-        buffer = w/4
+        buffer = w / 4
         area = (buffer, 0, h + buffer, h)
         square = im.crop(area)
     else:  # horiz im
-        buffer = h/4
+        buffer = h / 4
         area = (0, buffer, w, w + buffer)
         square = im.crop(area)
     return square
@@ -37,8 +36,6 @@ def square(im):  # returns square central crop of image
 def blur(im):
     out = im.filter(ImageFilter.BLUR)
     return out
-
-
 
 
 # to appease flake8
