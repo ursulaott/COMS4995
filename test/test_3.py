@@ -3,7 +3,8 @@
 import drkrm
 import pytest
 
-p = "./kakashi.jpg"
+p = "examples/kakashi.jpg"
+
 
 def test_open_img():
     assert (p != None)

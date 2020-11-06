@@ -36,11 +36,3 @@ def square(im):  # returns square central crop of image
 def blur(im):
     out = im.filter(ImageFilter.BLUR)
     return out
-
-
-# to appease flake8
-r = get_path()
-p = read_img(r)
-
-s = blur(p)
-s.show()

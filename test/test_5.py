@@ -6,6 +6,7 @@
 import drkrm
 import pytest
 
+
 def test_path_empty():
     with pytest.raises(IOError):
         drkrm.read_img("../examples/nonexistient.jpg")
