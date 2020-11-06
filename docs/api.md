@@ -3,7 +3,7 @@
 ## Shape
 
 ```eval_rst
-.. automodule:: drkrm.square
+.. automodule:: drkrm
     :members:
     :undoc-members:
     :show-inheritance:
