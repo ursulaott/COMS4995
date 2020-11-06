@@ -4,7 +4,7 @@
 
 ```eval_rst
 .. automodule:: drkrm
-    :members:
-    :undoc-members:
-    :show-inheritance:
+   :members:
+   :undoc-members:
+   :show-inheritance:
 ```
