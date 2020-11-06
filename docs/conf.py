@@ -1,4 +1,13 @@
 import sphinx_rtd_theme
+import os
+import sys
+import os.path
+import subprocess
+import shutil
+import sphinx_rtd_theme
+from recommonmark.transform import AutoStructify
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 master_doc="index"
 
 # Configuration file for the Sphinx documentation builder.
@@ -69,3 +78,59 @@ def setup(app):
     app.add_transform(AutoStructify)
 
 # for auto api documentation
+
+
+# -- Other -------------------------------------------------
+# with reference to https://github.com/timkpaine/tributary/blob/main/docs/conf.py
+
+texinfo_documents = [
+    (master_doc, 'drkrm') ,
+]
+
+
+def run_copyreadme(_):
+    out = os.path.abspath(os.path.join(os.path.dirname(__file__), 'index.md'))
+    readme = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'README.md'))
+    api = os.path.abspath(os.path.join(os.path.dirname(__file__), 'api.md'))
+    with open(out, 'w') as fp1:
+        with open(readme, 'r') as fp2:
+            # Skip img
+            fp2.readline()
+            fp1.write("# drkrm\n")
+            for line in fp2:
+                if 'src=' in line:
+                    # <img>
+                    fp1.write(line.replace("docs/", ""))
+                elif "](docs/" in line:
+                    # md
+                    fp1.write(line.replace("](docs/", "]("))
+                else:
+                    fp1.write(line)
+
+        with open(api, 'r') as fp2:
+            fp1.write(fp2.read())
+
+
+def run_apidoc(_):
+    out_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'api'))
+    lib_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src'))
+    cmd_path = 'sphinx-apidoc'
+    if hasattr(sys, 'real_prefix'):  # Check to see if we are in a virtualenv
+        # If we are, assemble the path manually
+        cmd_path = os.path.abspath(os.path.join(sys.prefix, 'bin', 'sphinx-apidoc'))
+    subprocess.check_call([cmd_path,
+                           '-E',
+                           '-M',
+                           '-o',
+                           out_dir,
+                           lib_dir,
+                           '--force'])
+
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        'auto_toc_tree_section': 'Contents',
+    }, True)
+    app.add_transform(AutoStructify)
+    app.connect('builder-inited', run_copyreadme)
+    app.connect('builder-inited', run_apidoc)
