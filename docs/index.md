@@ -25,8 +25,8 @@ description:
 ## Shape
 
 ```eval_rst
-.. automodule:: drkrm
-    :members:
-    :undoc-members:
-    :show-inheritance:
+.. automodule:: drkrm 
+   :members:
+   :undoc-members:
+   :show-inheritance:
 ```
