@@ -1,9 +1,10 @@
 # test reading in an image
 # should return no errors
-from base import *
+
 import pytest
 import sys
 sys.path.insert(0, 'src')
+from base import *
 
 
 p = get_path()

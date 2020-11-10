@@ -2,10 +2,11 @@
 # expect to get
 # TypeError: read_img() missing 1 required positional argument: 'imgpath'
 
-from base import *
+
 import pytest
 import sys
 sys.path.insert(0, 'src')
+from base import *
 
 
 def test_path_empty():
