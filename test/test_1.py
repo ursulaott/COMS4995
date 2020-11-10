@@ -1,7 +1,7 @@
 import pytest
-from src.base import *
 import sys
 sys.path.insert(0, '../src')
+from src.base import *
 
 
 def test_zero_division():

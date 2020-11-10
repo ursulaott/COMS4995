@@ -1,10 +1,11 @@
 # test centrally square cropping a vertical image
 
 import pytest
-from src.utils import *
-from src.base import *
 import sys
 sys.path.insert(0, '../src')
+from src.utils import *
+from src.base import *
+
 
 
 def test_square_vertical():
