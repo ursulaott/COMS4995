@@ -1,3 +1,6 @@
 .DS_Store
 tests/__pycache__/
 tests/.pytest_cache/
+docs/_build
+docs/_static
+docs/_templates
