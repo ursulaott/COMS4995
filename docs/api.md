@@ -5,7 +5,7 @@
 ## Shape functions
 
 ```eval_rst
-.. automodule:: drkrm.
+.. automodule:: src.base
    :members:
    :undoc-members:
    :show-inheritance:
