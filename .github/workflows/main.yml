@@ -44,4 +44,4 @@ jobs:
 
     # Linting step
       - name: Lint source code with flake8
-        run: python -m flake8 drkrm/
+        run: python -m flake8 src/

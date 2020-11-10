@@ -2,6 +2,7 @@ from PIL import Image
 from PIL import ImageFilter
 import numpy as np
 
+
 def square(im):  # returns square central crop of image
     w, h = im.size
     print(w, h)

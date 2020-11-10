@@ -1,9 +1,9 @@
 # test getting a supplied image path
 
+from base import *
 import pytest
 import sys
 sys.path.insert(0, 'src')
-from base import *
 
 
 p = "examples/kakashi.jpg"
