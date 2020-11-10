@@ -2,11 +2,13 @@
 # expect to get
 # TypeError: read_img() missing 1 required positional argument: 'imgpath'
 
-import drkrm
+import sys
+sys.path.insert(0, '../src')
+from src.base import *
 import pytest
 
 
 def test_path_empty():
     with pytest.raises(TypeError) as e:
-        drkrm.read_img()
+        read_img()
     print(e)

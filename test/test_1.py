@@ -1,6 +1,6 @@
-# test pytest?
-
-import drkrm
+import sys
+sys.path.insert(0, '../src')
+from src.base import *
 import pytest
 
 

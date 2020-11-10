@@ -1,10 +1,13 @@
 # test centrally square cropping a vertical image
 
-import drkrm
+import sys
+sys.path.insert(0, '../src')
+from src.base import *
+from src.utils import *
 import pytest
 
 
 def test_square_vertical():
-    i2 = drkrm.read_img("examples/bnha.jpg")
-    sq2 = drkrm.square(i2)
+    i2 = read_img("examples/bnha.jpg")
+    sq2 = square(i2)
     sq2.show()
