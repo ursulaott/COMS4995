@@ -3,10 +3,10 @@
 # No such file or directory: '../examples/nonexistient.jpg'
 # filenotfounderror is not defined in python2?
 
+import pytest
+from src.base import *
 import sys
 sys.path.insert(0, '../src')
-from src.base import *
-import pytest
 
 
 def test_path_empty():
