@@ -3,9 +3,8 @@
 import pytest
 import sys
 sys.path.insert(0, 'src')
-from src.utils import *
-from src.base import *
-
+from utils import *
+from base import *
 
 
 def test_square_vertical():

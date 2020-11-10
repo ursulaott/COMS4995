@@ -1,9 +1,10 @@
 import pytest
 import sys
 sys.path.insert(0, 'src')
+from base import *
 import pathlib
 print("path: ",pathlib.Path().absolute())
-from src.base import *
+
 
 
 def test_zero_division():

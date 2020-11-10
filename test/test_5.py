@@ -6,7 +6,7 @@
 import pytest
 import sys
 sys.path.insert(0, 'src')
-from src.base import *
+from base import *
 
 
 def test_path_empty():
