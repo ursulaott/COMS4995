@@ -1,6 +1,6 @@
 # test centrally square cropping a horizontal image
 import sys
-sys.path.insert(0, '../src')
+sys.path.insert(0, 'src')
 from src.base import *
 from src.utils import *
 import pytest
