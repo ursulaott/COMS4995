@@ -1,6 +1,8 @@
 import pytest
 import sys
 sys.path.insert(0, 'src')
+import pathlib
+print("path: ",pathlib.Path().absolute())
 from src.base import *
 
 
