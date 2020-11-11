@@ -97,6 +97,20 @@
    :show-inheritance:
 ```
 
+```eval_rst
+.. automodule:: src.arr.shadows
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+```eval_rst
+.. automodule:: src.arr.noise
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
 ## Math functions
 
 ## Other functions

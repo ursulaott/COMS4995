@@ -13,7 +13,7 @@ def get_img_from_nparray(arr):
     return out
 
 
-def reds(arr, percent):  # dial reds based on percent
+def reds(arr, percent):  # dial all reds based on percent
     if (percent < 0):
         return
     for row in arr:
@@ -26,7 +26,7 @@ def reds(arr, percent):  # dial reds based on percent
     return arr
 
 
-def greens(arr, percent):  # dial greens based on percent
+def greens(arr, percent):  # dial all greens based on percent
     if (percent < 0):
         return
     for row in arr:
@@ -36,6 +36,36 @@ def greens(arr, percent):  # dial greens based on percent
             if (green > 255):
                 green = 255
             pixel[1] = green
+    return arr
+
+
+def blues(arr, percent):  # dial all blues based on percent
+    if (percent < 0):
+        return
+    for row in arr:
+        for pixel in row:
+            blue = pixel[2]
+            blue = blue * (percent/100)
+            if (blue > 255):
+                blue = 255
+            pixel[2] = blue
+    return arr
+
+
+def shadows(arr):
+    for row in arr:
+        for pixel in row:  # remember pixels are (red, green, blue)
+            p = 0
+            p += pixel[0]
+            p += pixel[1]
+            p += pixel[2]
+            if (p < 110):  # this is the threshold for detecting a "shadow"
+                # do something to the shadows here!!
+                pixel[0] = pixel[0]/1.2
+                pixel[1] = pixel[1]/1.2
+                pixel[2] = pixel[2]*1.2
+                # this setting makes them bluer
+
     return arr
 
 
