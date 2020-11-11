@@ -15,5 +15,3 @@ def test_np():
     a = greens(npa, 140)
     b = get_img_from_nparray(a)
     b.show()
-
-test_np()

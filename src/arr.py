@@ -6,8 +6,8 @@ def get_nparray_from_img(im):
     out = np.array(im)
     return out
 
-# dial reds to a percentage (> 0 only)
-def reds(arr, percent: int):
+
+def reds(arr, percent: int):  # dial reds based on percent
     if (percent < 0):
         return
     for row in arr:
@@ -19,8 +19,8 @@ def reds(arr, percent: int):
             pixel[0] = red
     return arr
 
-# dial reds to a percentage (> 0 only)
-def greens(arr, percent: int):
+
+def greens(arr, percent):  # dial greens based on percent
     if (percent < 0):
         return
     for row in arr:
@@ -32,8 +32,8 @@ def greens(arr, percent: int):
             pixel[1] = green
     return arr
 
-# dial blues to a percentage (> 0 only)
-def blues(arr, percent: int):
+
+def blues(arr, percent: int):  # dial blues based on percent
     if (percent < 0):
         return
     for row in arr:
@@ -44,6 +44,7 @@ def blues(arr, percent: int):
                 blue = 255
             pixel[2] = blue
     return arr
+
 
 def get_img_from_nparray(arr):
     out = Image.fromarray(arr)
