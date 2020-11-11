@@ -6,6 +6,7 @@ def get_nparray_from_img(im):
     out = np.array(im)
     return out
 
+
 def get_img_from_nparray(arr):
     out = Image.fromarray(arr)
     return out
