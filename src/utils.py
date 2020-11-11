@@ -1,5 +1,4 @@
 from PIL import ImageFilter
-import numpy as np
 
 
 def square(im):  # returns square central crop of image
@@ -20,9 +19,4 @@ def square(im):  # returns square central crop of image
 
 def blur(im):
     out = im.filter(ImageFilter.BLUR)
-    return out
-
-
-def getnparray(im):
-    out = np.array(im)
     return out
