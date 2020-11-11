@@ -69,6 +69,22 @@ def shadows(arr):
     return arr
 
 
+def highlights(arr):
+    for row in arr:
+        for pixel in row:  # remember pixels are (red, green, blue)
+            p = 0
+            p += pixel[0]
+            p += pixel[1]
+            p += pixel[2]
+            if (p < 600):  # this is the threshold for detecting a "highlight"
+                # do something to the highlight here!!
+                pixel[0] = pixel[0]*1.2
+                pixel[1] = pixel[1]*1.01
+                pixel[2] = pixel[2]/1.2
+                # this setup makes highlights more orange
+    return arr
+
+
 def noise(arr, amount):  # amount suggested from 10 to 50
     for row in arr:
         for pixel in row:

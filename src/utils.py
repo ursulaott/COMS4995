@@ -10,13 +10,13 @@ def square(im):  # returns square central crop of image
         buffer = w / 4
         area = (buffer, 0, h + buffer, h)
         square = im.crop(area)
-    else:  # horiz im
+    else:  # vert im
         buffer = h / 4
         area = (0, buffer, w, w + buffer)
         square = im.crop(area)
     return square
 
 
-def blur(im):
+def blur(im):  # gaussian blur
     out = im.filter(ImageFilter.BLUR)
     return out

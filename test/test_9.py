@@ -14,6 +14,3 @@ def test_noise():
     a = noise(npa, 50)
     b = get_img_from_nparray(a)
     b.show()
-
-
-test_noise()
