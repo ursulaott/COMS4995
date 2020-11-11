@@ -1,5 +1,6 @@
 from PIL import Image
 import numpy as np
+import random
 
 
 def get_nparray_from_img(im):
@@ -38,14 +39,10 @@ def greens(arr, percent):  # dial greens based on percent
     return arr
 
 
-def blues(arr, percent):  # dial blues based on percent
-    if (percent < 0):
-        return
+def noise(arr, amount):  # amount suggested from 10 to 50
     for row in arr:
         for pixel in row:
-            blue = pixel[2]
-            blue = blue * (percent/100)
-            if (blue > 255):
-                blue = 255
-            pixel[2] = blue
+            pixel[0] = pixel[0] + random.gauss(0, amount)
+            pixel[1] = pixel[1] + random.gauss(0, amount)
+            pixel[2] = pixel[2] + random.gauss(0, amount)
     return arr
