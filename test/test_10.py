@@ -1,4 +1,4 @@
-# test centrally square cropping a horizontal image
+# test adj
 
 import pytest
 import sys
@@ -11,6 +11,6 @@ from arr import *
 def test_shadows():
     i2 = read_img("examples/kakashi.jpg")
     npa = get_nparray_from_img(i2)
-    a = highlights(npa)
+    a = shadows(npa)
     b = get_img_from_nparray(a)
     b.show()

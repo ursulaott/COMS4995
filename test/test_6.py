@@ -8,6 +8,6 @@ from utils import *
 
 
 def test_square_vertical():
-    i2 = read_img("examples/bnha.jpg")
+    i2 = read_img("examples/hq.jpg")
     sq2 = square(i2)
     sq2.show()

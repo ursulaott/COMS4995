@@ -1,4 +1,4 @@
-# test centrally square cropping a horizontal image
+# test adding noise to image 
 
 import pytest
 import sys

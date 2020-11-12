@@ -79,8 +79,8 @@ def highlights(arr):
             if (p < 600):  # this is the threshold for detecting a "highlight"
                 # do something to the highlight here!!
                 pixel[0] = pixel[0]*1.2
-                pixel[1] = pixel[1]*1.01
-                pixel[2] = pixel[2]/1.2
+                pixel[1] = pixel[1]
+                pixel[2] = pixel[2] * 1.3
                 # this setup makes highlights more orange
     return arr
 
