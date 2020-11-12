@@ -92,3 +92,9 @@ def noise(arr, amount):  # amount suggested from 10 to 50
             pixel[1] = pixel[1] + random.gauss(0, amount)
             pixel[2] = pixel[2] + random.gauss(0, amount)
     return arr
+
+
+def bake(arr):
+    for row in arr:
+        for pixel in row:
+            print(pixel)

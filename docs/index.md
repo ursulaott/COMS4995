@@ -22,9 +22,7 @@ description:
 - plan to make a cli tool first, and then maybe build a web interface
 # API
 
-###  currently trying to get this to work
-
-## Base functions
+## Base Image functions
 
 ```eval_rst
 .. automodule:: src.base
@@ -116,6 +114,20 @@ description:
 
 ```eval_rst
 .. automodule:: src.arr.blues
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+```eval_rst
+.. automodule:: src.arr.shadows
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+```eval_rst
+.. automodule:: src.arr.noise
    :members:
    :undoc-members:
    :show-inheritance:
