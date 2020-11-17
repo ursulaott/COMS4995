@@ -23,3 +23,4 @@ description:
 
 ## examples
 ![](examples/mangarecolor.png)
+![](examples/beach.jpg)
