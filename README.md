@@ -15,11 +15,9 @@ pip install drkrm==0.1.0
 
 check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/)
 
-## project proposal
-
-description:
+## description:
 - a library of photo editing/filter effects in python that are free, easy to use, and highly fine-tune-able (kind of like lightroom presets)
-- plan to make a cli tool first, and then maybe build a web interface
+- plan to make a cli tool first
 
 ## examples
 ![](examples/mangarecolor.png)
