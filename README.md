@@ -20,5 +20,5 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
 - starting as a cli tool
 
 ## examples
-![](examples/mangarecolor.png)
-![](examples/beach.jpg)
+![manga recolor](examples/mangarecolor.png =300x)
+![normal photo editing](examples/beach.jpg =300x)
