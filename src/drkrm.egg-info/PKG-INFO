@@ -18,7 +18,7 @@ Description: # drkrm
         
         ## installation
         
-        (install instructions)
+        pip install -i https://test.pypi.org/simple/ drkrm==0.1.0
         
         ## documentation
         
