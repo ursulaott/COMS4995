@@ -1,4 +1,4 @@
-# test adj
+# test adjusting shadows
 
 import pytest
 import sys

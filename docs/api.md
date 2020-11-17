@@ -53,6 +53,14 @@
    :show-inheritance:
 ```
 
+
+```eval_rst
+.. automodule:: src.utils.hex_to_rgb
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
 ## Array functions
 
 ```eval_rst

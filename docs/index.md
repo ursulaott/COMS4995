@@ -20,6 +20,9 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
 description:
 - a library of photo editing/filter effects in python that are free, easy to use, and highly fine-tune-able (kind of like lightroom presets)
 - plan to make a cli tool first, and then maybe build a web interface
+
+## examples
+![](examples/mangarecolor.png)
 # API
 
 ## Base Image functions
@@ -70,6 +73,14 @@ description:
 
 ```eval_rst
 .. automodule:: src.utils.blur
+   :members:
+   :undoc-members:
+   :show-inheritance:
+```
+
+
+```eval_rst
+.. automodule:: src.utils.hex_to_rgb
    :members:
    :undoc-members:
    :show-inheritance:
