@@ -17,7 +17,7 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
 
 ## description:
 - a library of photo editing/filter effects in python that are free, easy to use, and highly fine-tune-able (kind of like lightroom presets)
-- plan to make a cli tool first
+- starting as a cli tool
 
 ## examples
 ![](examples/mangarecolor.png)
