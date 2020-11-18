@@ -1,7 +1,7 @@
 # drkrm
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/ursulaott/COMS4995/blob/master/LICENSE)
-![PyPI](https://img.shields.io/pypi/v/drkrm) 
+![PyPI](https://img.shields.io/pypi/v/drkrm)
 ![CI](https://github.com/ursulaott/drkrm/workflows/CI/badge.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ursulaott/drkrm)
 [![codecov](https://codecov.io/gh/ursulaott/drkrm/branch/master/graph/badge.svg?token=AKEGV74WVZ)](undefined)
@@ -12,7 +12,6 @@ drkrm | pixel-perfect photo filters in python [link to repo](https://github.com/
 ## installation
 
 pip install drkrm==0.1.0
-
 
 ## documentation
 
