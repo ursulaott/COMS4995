@@ -94,7 +94,7 @@ def noise(arr, amount):  # amount suggested from 10 to 50
     return arr
 
 
-def bake(arr):
+def bake(arr): # unifinished! do not use 
     for row in arr:
         for pixel in row:
             print(pixel)
