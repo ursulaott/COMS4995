@@ -53,7 +53,6 @@
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.utils.hex_to_rgb
    :members:
@@ -70,6 +69,7 @@
    :show-inheritance:
 ```
 
+
 ```eval_rst
 .. automodule:: src.arr.get_nparray_from_img
    :members:
@@ -77,12 +77,14 @@
    :show-inheritance:
 ```
 
+
 ```eval_rst
 .. automodule:: src.arr.get_img_from_nparray
    :members:
    :undoc-members:
    :show-inheritance:
 ```
+
 
 ```eval_rst
 .. automodule:: src.arr.reds

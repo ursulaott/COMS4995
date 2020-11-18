@@ -9,20 +9,18 @@ drkrm | pixel-perfect photo filters in python [link to repo](https://github.com/
 
 ## installation
 
-(install instructions)
+pip install drkrm==0.1.0
 
 ## documentation
 
 check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/)
 
-## project proposal
-
-description:
+## description:
 - a library of photo editing/filter effects in python that are free, easy to use, and highly fine-tune-able (kind of like lightroom presets)
-- plan to make a cli tool first, and then maybe build a web interface
+- starting as a cli tool
 
 ## examples
-![](examples/mangarecolor.png)
+<img src="examples/mangarecolor.png" alt="manga recolor" height="400" /> <img src="examples/beach.jpg" alt="normal photo editing" height="400" />
 # API
 
 ## Base Image functions
@@ -78,7 +76,6 @@ description:
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.utils.hex_to_rgb
    :members:
@@ -95,6 +92,7 @@ description:
    :show-inheritance:
 ```
 
+
 ```eval_rst
 .. automodule:: src.arr.get_nparray_from_img
    :members:
@@ -102,12 +100,14 @@ description:
    :show-inheritance:
 ```
 
+
 ```eval_rst
 .. automodule:: src.arr.get_img_from_nparray
    :members:
    :undoc-members:
    :show-inheritance:
 ```
+
 
 ```eval_rst
 .. automodule:: src.arr.reds
