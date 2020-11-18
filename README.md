@@ -20,4 +20,4 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
 - starting as a cli tool
 
 ## examples
-<img src="examples/mangarecolor.png" alt="manga recolor" height="400" /><img src="examples/beach.jpg" alt="normal photo editing" height="400" />
+<img src="examples/mangarecolor.png" alt="manga recolor" height="400" /> <img src="examples/beach.jpg" alt="normal photo editing" height="400" />
