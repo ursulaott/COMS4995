@@ -38,7 +38,7 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
    :undoc-members:
    :show-inheritance:
 ```
-get sample/example image path
+
 
 ```eval_rst
 .. automodule:: src.base.get_input_path
@@ -46,7 +46,7 @@ get sample/example image path
    :undoc-members:
    :show-inheritance:
 ```
-get image path from user input
+
 
 ```eval_rst
 .. automodule:: src.base.read_img
@@ -54,7 +54,7 @@ get image path from user input
    :undoc-members:
    :show-inheritance:
 ```
-get image from supplied image path
+
 
 ## Utility functions
 
@@ -71,7 +71,7 @@ get image from supplied image path
    :undoc-members:
    :show-inheritance:
 ```
-square crop image
+
 
 ```eval_rst
 .. automodule:: src.utils.blur
@@ -79,7 +79,7 @@ square crop image
    :undoc-members:
    :show-inheritance:
 ```
-blur image
+
 
 ```eval_rst
 .. automodule:: src.utils.hex_to_rgb
@@ -87,7 +87,7 @@ blur image
    :undoc-members:
    :show-inheritance:
 ```
-convert hex color code to rgb
+
 
 ## Array functions
 
@@ -105,7 +105,7 @@ convert hex color code to rgb
    :undoc-members:
    :show-inheritance:
 ```
-get numpy array from image
+
 
 ```eval_rst
 .. automodule:: src.arr.get_img_from_nparray
@@ -113,7 +113,7 @@ get numpy array from image
    :undoc-members:
    :show-inheritance:
 ```
-get image from numpy array
+
 
 ```eval_rst
 .. automodule:: src.arr.reds
@@ -121,7 +121,7 @@ get image from numpy array
    :undoc-members:
    :show-inheritance:
 ```
-adjust reds in image by percentage (percent less than 100 = turn down intensity, percent above 100 = turn up intensity)
+
 
 ```eval_rst
 .. automodule:: src.arr.greens
@@ -129,7 +129,7 @@ adjust reds in image by percentage (percent less than 100 = turn down intensity,
    :undoc-members:
    :show-inheritance:
 ```
-adjust greens in image by percentage (percent less than 100 = turn down intensity, percent above 100 = turn up intensity)
+
 
 ```eval_rst
 .. automodule:: src.arr.blues
@@ -137,7 +137,7 @@ adjust greens in image by percentage (percent less than 100 = turn down intensit
    :undoc-members:
    :show-inheritance:
 ```
-adjust blues in image by percentage (percent less than 100 = turn down intensity, percent above 100 = turn up intensity)
+
 
 ```eval_rst
 .. automodule:: src.arr.shadows
@@ -145,7 +145,7 @@ adjust blues in image by percentage (percent less than 100 = turn down intensity
    :undoc-members:
    :show-inheritance:
 ```
-adjust shadows in image
+
 
 ```eval_rst
 .. automodule:: src.arr.highlights
@@ -153,7 +153,7 @@ adjust shadows in image
    :undoc-members:
    :show-inheritance:
 ```
-adjust highlights in image
+
 
 ```eval_rst
 .. automodule:: src.arr.noise
@@ -161,7 +161,6 @@ adjust highlights in image
    :undoc-members:
    :show-inheritance:
 ```
-add noise (suggested amount value 10 to 50)
 
 ## Math functions
 
