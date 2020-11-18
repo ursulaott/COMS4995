@@ -16,7 +16,7 @@ drkrm | your digital darkroom | pixel-perfect photo filters in python [link to r
 
 ## documentation
 
-check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/)
+check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest)
 
 ## description:
 - a library of photo editing/filter effects in python that are free, easy to use, and highly fine-tune-able (kind of like lightroom presets)
