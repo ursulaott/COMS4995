@@ -9,6 +9,25 @@ https://github.com/pypa/sampleproject
 from setuptools import setup, find_packages
 import pathlib
 
+import codecs
+import os.path
+
+def read(rel_path):
+    here = os.path.abspath(os.path.dirname(__file__))
+    with codecs.open(os.path.join(here, rel_path), 'r') as fp:
+        return fp.read()
+
+def get_version(rel_path):
+    for line in read(rel_path).splitlines():
+        if line.startswith('__version__'):
+            delim = '"' if '"' in line else "'"
+            return line.split(delim)[1]
+    else:
+        raise RuntimeError("Unable to find version string.")
+
+
+
+
 here = pathlib.Path(__file__).parent.resolve()
 
 # Get the long description from the README file
@@ -37,11 +56,13 @@ setup(
     # For a discussion on single-sourcing the version across setup.py and the
     # project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    
+
+    version=get_version("drkrm/src/__init__.py"),
 
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
+
     description='pixel-perfect photo filters in python',  # Optional
 
     # This is an optional longer description of your project that represents
