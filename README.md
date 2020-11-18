@@ -11,6 +11,10 @@ drkrm | pixel-perfect photo filters in python [link to repo](https://github.com/
 
 pip install drkrm==0.1.0
 
+## version
+
+0.1.0
+
 ## documentation
 
 check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/)
