@@ -20,6 +20,14 @@ src.utils module
    :undoc-members:
    :show-inheritance:
 
+src.arr module
+----------------
+
+.. automodule:: src.arr
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 Module contents
 ---------------
 

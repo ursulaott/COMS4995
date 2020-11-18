@@ -16,7 +16,6 @@
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.base.get_input_path
    :members:
@@ -24,14 +23,12 @@
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.base.read_img
    :members:
    :undoc-members:
    :show-inheritance:
 ```
-
 
 ## Utility functions
 
@@ -49,7 +46,6 @@
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.utils.blur
    :members:
@@ -57,14 +53,12 @@
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.utils.hex_to_rgb
    :members:
    :undoc-members:
    :show-inheritance:
 ```
-
 
 ## Array functions
 
@@ -74,7 +68,6 @@
    :undoc-members:
    :show-inheritance:
 ```
-
 
 ```eval_rst
 .. automodule:: src.arr.get_nparray_from_img

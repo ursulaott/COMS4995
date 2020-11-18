@@ -39,7 +39,6 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.base.get_input_path
    :members:
@@ -47,14 +46,12 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.base.read_img
    :members:
    :undoc-members:
    :show-inheritance:
 ```
-
 
 ## Utility functions
 
@@ -72,7 +69,6 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.utils.blur
    :members:
@@ -80,14 +76,12 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
    :show-inheritance:
 ```
 
-
 ```eval_rst
 .. automodule:: src.utils.hex_to_rgb
    :members:
    :undoc-members:
    :show-inheritance:
 ```
-
 
 ## Array functions
 
@@ -97,7 +91,6 @@ check out documentation at [readthedocs](https://drkrm.readthedocs.io/en/latest/
    :undoc-members:
    :show-inheritance:
 ```
-
 
 ```eval_rst
 .. automodule:: src.arr.get_nparray_from_img
