@@ -134,9 +134,9 @@ def interval_sort_grid(arr): # unfinished! do not use
     sorted = []
     for i in range(len(arr) - 3):
             li = []
-            for x in range(0,10):
+            for x in range(0, 10):
                 li.append(arr[i+x])
             li = li.sort(key=sortHelper)
-            for y in range(0,10):
+            for y in range(0, 10):
                 arr[i+y] = li[y]
     return arr
