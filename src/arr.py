@@ -94,7 +94,7 @@ def noise(arr, amount):  # amount suggested from 10 to 50
     return arr
 
 
-def sort_rows(arr, n): # pixel sorting filter by amount n
+def sort_rows(arr, n):  # pixel sorting filter by amount n
     sorted = []
     for row in arr:
         for i in range(len(row) - n):
@@ -107,7 +107,7 @@ def sort_rows(arr, n): # pixel sorting filter by amount n
     return arr
 
 
-def partial_sort_rows(arr, n): # pixel sorting filter by amount n
+def partial_sort_rows(arr, n):  # pixel sorting filter by amount n
     sorted = []
     for row in arr:
         for i in range(len(row) - n):
@@ -130,13 +130,14 @@ def bake(arr):  # unifinished! do not use
 def sortHelper(a):
     return a[0] + a[1] + a[2]
 
-def interval_sort_grid(arr): # unfinished! do not use
+
+def interval_sort_grid(arr):  # unfinished! do not use
     sorted = []
     for i in range(len(arr) - 3):
-            li = []
-            for x in range(0, 10):
-                li.append(arr[i+x])
-            li = li.sort(key=sortHelper)
-            for y in range(0, 10):
-                arr[i+y] = li[y]
+        li = []
+        for x in range(0, 10):
+            li.append(arr[i+x])
+        li = li.sort(key=sortHelper)
+        for y in range(0, 10):
+            arr[i+y] = li[y]
     return arr
