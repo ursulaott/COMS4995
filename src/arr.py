@@ -94,7 +94,49 @@ def noise(arr, amount):  # amount suggested from 10 to 50
     return arr
 
 
+def sort_rows(arr, n): # pixel sorting filter by amount n
+    sorted = []
+    for row in arr:
+        for i in range(len(row) - n):
+            p1 = row[i][0] + row[i][1] + row[i][2]
+            p2 = row[i+n][0] + row[i+n][1] + row[i+n][2]
+            if p1 > p2:
+                y = row[i]
+                row[i] = row[i+n]
+                row[i+n] = y
+    return arr
+
+
+def partial_sort_rows(arr, n): # pixel sorting filter by amount n
+    sorted = []
+    for row in arr:
+        for i in range(len(row) - n):
+            r = random.gauss(0, 1)
+            p1 = row[i][0] + row[i][1] + row[i][2]
+            p2 = row[i+n][0] + row[i+n][1] + row[i+n][2]
+            if p1 > p2 and (r > 0.5):
+                y = row[i]
+                row[i] = row[i+n]
+                row[i+n] = y
+    return arr
+
+
 def bake(arr):  # unifinished! do not use
     for row in arr:
         for pixel in row:
             print(pixel)
+
+
+def sortHelper(a):
+    return a[0] + a[1] + a[2]
+
+def interval_sort_grid(arr): # unfinished! do not use
+    sorted = []
+    for i in range(len(arr) - 3):
+            li = []
+            for x in range(0,10):
+                li.append(arr[i+x])
+            li = li.sort(key=sortHelper)
+            for y in range(0,10):
+                arr[i+y] = li[y]
+    return arr

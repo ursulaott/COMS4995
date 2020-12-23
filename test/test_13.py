@@ -8,11 +8,11 @@ from base import *
 from arr import *
 
 
-def test_noise():
-    i2 = read_img("examples/kakashi.jpg")
+def test_sort_rows():
+    i2 = read_img("examples/beach.jpg")
     npa = get_nparray_from_img(i2)
-    a = noise(npa, 50)
+    a = sort_rows(npa, 7)
     b = get_img_from_nparray(a)
     b.show()
 
-test_noise()
+test_sort_rows()
