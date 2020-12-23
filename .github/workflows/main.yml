@@ -24,13 +24,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-            python3 -m pip3 install --upgrade pip
-            python3 -m pip3 install flake8
-            python3 -m pip3 install pytest
-            python3 -m pip3 install coverage
-            python3 -m pip3 install pytest-cov
-            python3 -m pip3 install -r requirements.txt
-            python3 -m pip3 install codecov
+            python -m pip3 install --upgrade pip
+            python -m pip3 install flake8
+            python -m pip3 install pytest
+            python -m pip3 install coverage
+            python -m pip3 install pytest-cov
+            python -m pip3 install -r requirements.txt
+            python -m pip3 install codecov
 
 
     # testing with pytest, generate coverage report
