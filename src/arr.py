@@ -95,7 +95,6 @@ def noise(arr, amount):  # amount suggested from 10 to 50
 
 
 def sort_rows(arr, n):  # pixel sorting filter by amount n
-    sorted = []
     for row in arr:
         for i in range(len(row) - n):
             p1 = row[i][0] + row[i][1] + row[i][2]
@@ -108,7 +107,6 @@ def sort_rows(arr, n):  # pixel sorting filter by amount n
 
 
 def partial_sort_rows(arr, n):  # pixel sorting filter by amount n
-    sorted = []
     for row in arr:
         for i in range(len(row) - n):
             r = random.gauss(0, 1)
@@ -132,7 +130,6 @@ def sortHelper(a):
 
 
 def interval_sort_grid(arr):  # unfinished! do not use
-    sorted = []
     for i in range(len(arr) - 3):
         li = []
         for x in range(0, 10):
