@@ -24,8 +24,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-            python -m pip3 install --upgrade pip
-            python -m pip3 install flake8
+            python -m pip install --upgrade pip
+            python -m pip install flake8
             python -m pip3 install pytest
             python -m pip3 install coverage
             python -m pip3 install pytest-cov
